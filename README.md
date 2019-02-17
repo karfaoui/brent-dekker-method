@@ -8,9 +8,12 @@ This algorithm is an extension of an earlier one by Theodorus Dekker [3]  (this 
 2. In general, the roots of a function cannot be computed exactly. In some special cases a close formulation can be derived, which allows finding function roots.
 
 ### C++ implementation
-An implementation of Brent's method in C++ is illustrated here. We illustrate the inner workings of this method with three examples of root-finding.
 
-![Gelu](/images/gelu.png "GELU")<br>
+An implementation of Brent's method in C++ is illustrated here. We illustrate the inner workings, in code, of this method with three examples of root-finding.
+
+<b>f(x) = sin ( x ) - x / 2</b>
+ 
+![Example 1](/images/example_1.png "f(x) = sin ( x ) - x / 2")<br>
 
 ### References
 
