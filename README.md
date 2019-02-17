@@ -5,7 +5,7 @@ This algorithm is an extension of an earlier one by Theodorus Dekker [3]  (this 
 
 1. Root-finding algorithms allow solving any equation defined by continuous functions. Solving an equation f(x) = g(x) can be rewritten as a root finding problem h(x) = 0 where h(x) = f(x) - g(x).
 
-2. In general, the roots of a function cannot be computed exactly. In some special cases a close formulation can be derived, which allows finding function roots.
+2. In general, the roots of a function cannot be computed exactly. In some special cases a close formulation can be derived, which allows finding function roots (the last example below, roots can be determined by a closed form).
 
 ### C++ implementation
 
