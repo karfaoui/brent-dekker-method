@@ -10,6 +10,8 @@ This algorithm is an extension of an earlier one by Theodorus Dekker [3]  (this 
 ### C++ implementation
 An implementation of Brent's method in C++ is illustrated here. We illustrate the inner workings of this method with three examples of root-finding.
 
+![Gelu](/images/gelu.png "GELU")<br>
+
 ### References
 
 1. Brent (1973) published an Algol 60 implementation.
