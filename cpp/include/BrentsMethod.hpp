@@ -4,7 +4,6 @@
  * @Last Modified by:   karfaoui 
  * @Last Modified time: 2019-02-20 14:02:14 
  */
-
 #pragma once
 
 #include "BaseFunctor.hpp"
