@@ -11,9 +11,18 @@ This algorithm is an extension of an earlier one by Theodorus Dekker [3]  (this 
 
 An implementation of Brent's method in C++ is illustrated here. We show the inner workings, in code, of this method with three examples of root-finding.
 
-<b>Example 1</b>: <i>f(x) = sin ( x ) - x / 2</i>
+<b>Example 1</b>:<br/> <i>f(x) = sin ( x ) - x / 2</i>
  
 ![Example 1](/images/example_1.png "f(x) = sin ( x ) - x / 2")<br>
+
+<b>Example 2</b>:<br/> <i>f(x) = 2 * x - exp ( -x )</i>
+ 
+![Example 2](/images/example_2.png "f(x) = 2 * x - exp ( -x )")<br>
+
+<b>Example 3</b>:<br/> <i>f(x) = x <sup>4</sup> + x <sup>3</sup> - 5 * X <sup>2</sup> + 3</i>
+ 
+![Example 3](/images/example_3.png "f(x) = x <sup>4</sup> + x <sup>3</sup> - 5 * X <sup>2</sup> + 3")<br>
+
 
 ### References
 
