@@ -21,7 +21,7 @@ An implementation of Brent's method in C++ is illustrated here. We show the inne
 
 <b>Example 3</b>:<br/> <i>f(x) = x <sup>4</sup> + x <sup>3</sup> - 5 * X <sup>2</sup> + 3</i>
  
-![Example 3](/images/example_3a.png "f(x) = x <sup>4</sup> + x <sup>3</sup> - 5 * X <sup>2</sup> + 3")<br>
+![Example 3](/images/example_3b.png "f(x) = x <sup>4</sup> + x <sup>3</sup> - 5 * X <sup>2</sup> + 3")<br>
 
 
 ### References
