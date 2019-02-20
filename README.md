@@ -11,6 +11,32 @@ This algorithm is an extension of an earlier one by Theodorus Dekker [3]  (this 
 
 An implementation of Brent's method in C++ is illustrated here. We show the inner workings, in code, of this method with three examples of root-finding.
 
+<i>main.cpp</i>
+
+``` 
+ ...
+ 
+ // Test 1
+ auto f1 = F("sin(x)-0.5*x");    
+ auto z = Algorithm::BrentsMethod::root(1.0, 2.0, *f1);
+ cout << "Root of " << f1->toString() << " in [1,2] is " << z << endl;    
+
+ // Test 2
+ Polynome poly({1, 1, -5, 3}); 
+
+ z = Algorithm::BrentsMethod::root(-5, -2, poly);
+ cout << "Root of " << poly.toString() << " in [-5,-2] is " << z << endl; 
+
+ z = Algorithm::BrentsMethod::root(0, 3, poly);
+ cout << "Root of " << poly.toString() << " in [0,3] is " << z << endl; 
+
+ // Test 3
+ auto f2 = F("2*x-exp(-x)");    
+ z = Algorithm::BrentsMethod::root(0.0, 1.0, *f2);
+ cout << "Root of " << f2->toString() << " in [0,1] is " << z << endl;   
+ 
+```
+
 <b>Example 1</b>:<br/> <i>f(x) = sin ( x ) - x / 2</i>
  
 ![Example 1](/images/example_1.png "f(x) = sin ( x ) - x / 2")<br>
