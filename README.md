@@ -1,6 +1,6 @@
 # brent-dekker-method
 ### Brent's method root-finding algorithm (minimization without derivatives)
-Brent’s method [1], which is due to Richard Brent [2] approximately solving f(x) = 0, where f is a continous function: R → R. 
+Brent’s method [1], which is due to Richard Brent [2] approximately solves f(x) = 0, where f is a continous function: R → R. 
 This algorithm is an extension of an earlier one by Theodorus Dekker [3]  (this algorithm is also called the brent-dekker-method). Why is this useful? There are two basic reasons:
 
 1. Root-finding algorithms allow solving any equation defined by continuous functions. Solving an equation f(x) = g(x) can be rewritten as a root finding problem h(x) = 0 where h(x) = f(x) - g(x).
