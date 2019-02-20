@@ -38,14 +38,23 @@ An implementation of Brent's method in C++ is illustrated here. We show the inne
 ```
 
 <b>Example 1</b>:<br/> <i>f(x) = sin ( x ) - x / 2</i>
+
+
+``Root of f(x) = sin(x)-0.5*x in [1,2] is 1.89549``
  
 ![Example 1](/images/example_1.png "f(x) = sin ( x ) - x / 2")<br>
 
+
 <b>Example 2</b>:<br/> <i>f(x) = 2 * x - exp ( -x )</i>
- 
+
+``Root of f(x) = 2*x-exp(-x) in [0,1] is 0.351734``
+
 ![Example 2](/images/example_2a.png "f(x) = 2 * x - exp ( -x )")<br>
 
 <b>Example 3</b>:<br/> <i>f(x) = x <sup>4</sup> + x <sup>3</sup> - 5 * X <sup>2</sup> + 3</i>
+
+``Root of f(X) = X^3 + X^2 - 5.00 * X + 3.00 in [-5,-2] is -3``<br>
+``Root of f(X) = X^3 + X^2 - 5.00 * X + 3.00 in [0,3] is 1``
  
 ![Example 3](/images/example_3b.png "f(x) = x <sup>4</sup> + x <sup>3</sup> - 5 * X <sup>2</sup> + 3")<br>
 
