@@ -17,11 +17,11 @@ An implementation of Brent's method in C++ is illustrated here. We show the inne
 
 <b>Example 2</b>:<br/> <i>f(x) = 2 * x - exp ( -x )</i>
  
-![Example 2](/images/example_2.png "f(x) = 2 * x - exp ( -x )")<br>
+![Example 2](/images/example_2a.png "f(x) = 2 * x - exp ( -x )")<br>
 
 <b>Example 3</b>:<br/> <i>f(x) = x <sup>4</sup> + x <sup>3</sup> - 5 * X <sup>2</sup> + 3</i>
  
-![Example 3](/images/example_3.png "f(x) = x <sup>4</sup> + x <sup>3</sup> - 5 * X <sup>2</sup> + 3")<br>
+![Example 3](/images/example_3a.png "f(x) = x <sup>4</sup> + x <sup>3</sup> - 5 * X <sup>2</sup> + 3")<br>
 
 
 ### References
